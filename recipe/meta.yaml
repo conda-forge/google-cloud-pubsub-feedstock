@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python
-    - google-api-core
-    - grpc-google-iam-v1
+    - google-api-core >=1.14,<2
+    - grpc-google-iam-v1 >=0.12.3
     - enum34
 
 test:
