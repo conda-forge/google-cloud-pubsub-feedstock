@@ -29,7 +29,7 @@ requirements:
     - grpcio >=1.51.3,<2.0dev
     - grpcio-status >=1.33.2
     # use tighter constraint for py3.11 to stay noarch: python
-    - proto-plus >=1.22.0,<2.0.0dev
+    - proto-plus >=1.22.2,<2.0.0dev
     - protobuf >=3.20.2,<6.0.0dev,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
     # from libcst extra
     - libcst >=0.3.10
