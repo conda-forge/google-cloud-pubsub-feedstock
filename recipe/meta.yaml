@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsub" %}
-{% set version = "2.23.0" %}
+{% set version = "2.23.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: cf3d6f2ab11b5c8dfc0aa7d4cae5ee1d66b408d9666f1762c9c17e269cd8b658
+  sha256: e1fde79b5b64b721290af4c022907afcbb83512d92f4e5c334c391cfbb022acb
 
 build:
   noarch: python
@@ -29,7 +29,7 @@ requirements:
     - grpcio >=1.51.3,<2.0dev
     - grpcio-status >=1.33.2
     # use tighter constraint for py3.11 to stay noarch: python
-    - proto-plus >=1.22.2,<2.0.0dev
+    - proto-plus >=1.22.0,<2.0.0dev
     - protobuf >=3.20.2,<6.0.0dev,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
     # from libcst extra
     - libcst >=0.3.10
