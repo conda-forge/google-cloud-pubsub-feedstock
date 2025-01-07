@@ -1,5 +1,5 @@
 {% set name = "google-cloud-pubsub" %}
-{% set version = "2.27.1" %}
+{% set version = "2.27.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7119dbc5af4b915ecdfa1289919f791a432927eaaa7bbfbeb740e6d7020c181e
+  sha256: d92c156c7ddd0e5125008f977898198d7b1ae766026056497271bec4909647fe
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ requirements:
     - opentelemetry-api >=1.27.0
     - opentelemetry-sdk >=1.27.0
     # use tighter constraint for python >=3.13 to stay noarch: python
-    - proto-plus >=1.25.0,<2.0.0dev
+    - proto-plus >=1.22.0,<2.0.0dev
     - protobuf >=3.20.2,<6.0.0dev,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
     # from libcst extra
     - libcst >=0.3.10
