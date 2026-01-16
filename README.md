@@ -21,7 +21,6 @@ building on the same technology Google uses, Cloud Pub / Sub is designed to
 provide “at least once” delivery at low latency with on-demand scalability
 to 1 million messages per second (and beyond).
 
-
 Current build status
 ====================
 
