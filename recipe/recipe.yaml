@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-pubsub
-  version: "2.35.0"
+  version: "2.36.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_pubsub-${{ version }}.tar.gz
-  sha256: 2c0d1d7ccda52fa12fb73f34b7eb9899381e2fd931c7d47b10f724cdfac06f95
+  sha256: 96e057e5f83433ce428852095d652c2f7fc193f0f77db1f27cc39186fe69c1f4
 
 build:
   number: 0
@@ -34,7 +34,7 @@ requirements:
     # more restrictive constraint for python >=3.13
     - proto-plus >=1.25.0,<2.0.0
     - protobuf >=3.20.2,<7.0.0,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
-    - grpc-google-iam-v1 >=0.12.4,<1.0.0
+    - grpc-google-iam-v1 >=0.14.0,<1.0.0
     - grpcio-status >=1.33.2
     - opentelemetry-api >=1.27.0
     - opentelemetry-sdk >=1.27.0
@@ -62,12 +62,9 @@ about:
     building on the same technology Google uses, Cloud Pub / Sub is designed to
     provide “at least once” delivery at low latency with on-demand scalability
     to 1 million messages per second (and beyond).
-
-
-
-  homepage: https://pypi.org/project/google-cloud-pubsub/
-  repository: https://github.com/googleapis/python-pubsub
-  documentation: https://cloud.google.com/python/docs/reference/pubsub/latest
+  homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-pubsub
+  repository: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-pubsub
+  documentation: https://docs.cloud.google.com/python/docs/reference/pubsub/latest
 
 extra:
   recipe-maintainers:
