@@ -3,15 +3,15 @@ About google-cloud-pubsub-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-pubsub-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/google-cloud-pubsub/
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-pubsub
 
 Package license: Apache-2.0
 
 Summary: Python Client for Google Cloud Pub / Sub
 
-Development: https://github.com/googleapis/python-pubsub
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-pubsub
 
-Documentation: https://cloud.google.com/python/docs/reference/pubsub/latest
+Documentation: https://docs.cloud.google.com/python/docs/reference/pubsub/latest
 
 Google Cloud Pub / Sub is a fully-managed real-time messaging service that
 allows you to send and receive messages between independent applications.
@@ -25,11 +25,10 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8530&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/google-cloud-pubsub-feedstock?branchName=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
