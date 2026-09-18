@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-pubsub
-  version: "2.40.0"
+  version: "2.41.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_pubsub-${{ version }}.tar.gz
-  sha256: fe7d7eb76f753f6aebcdda2f4dff536748d1999147f64d955a554f572abb1585
+  sha256: 4c7b42c23c1457543665ec162d75e0ba1b1d4c98adcc9c753f3517164f7937d7
 
 build:
   number: 0
